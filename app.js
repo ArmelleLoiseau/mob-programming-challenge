@@ -10,7 +10,7 @@ const PORT = process.env.PORT;
 
 app.use(express.static(__dirname + "/public"));
 
-
+hbs.registerPartials(__dirname + "/views/partials")
 
 //const images = ["/img/virtual-city.jpg", "/img/nft.jpg", "/img/html.jpg"];
 
