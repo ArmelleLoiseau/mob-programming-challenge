@@ -25,5 +25,11 @@ router.get('/', (req, res) => {
     })
 })
 
+const renderAddNew = function (req,res){
+  res.render("addUser.hbs")
+}
+
+router.get("/addNewUser",renderAddNew)
+
 
 module.exports = router;
