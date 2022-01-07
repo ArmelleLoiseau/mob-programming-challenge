@@ -1,3 +1,7 @@
-{{#each images}}
-<img src="{{this}}" alt="coding pic"/>
-{{/each}}
+<div class="container">
+  {{#each images}}
+    <div class="image-card">
+      <img class="img" src="{{this}}" alt="coding pic" />
+    </div>
+  {{/each}}
+</div>

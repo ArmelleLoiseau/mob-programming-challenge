@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* .image-card {
+} */
+
+.img {
+  width: 30vw;
+  height: auto;
+}
